@@ -10,3 +10,4 @@
 8. git checkout 이름 : (이름) 브랜치로 관리 선택이동 e.g.git checkout add-style
 9. git branch -d 이름 : '이름'의 브랜치를 삭제
 10. git checkout -b 이름 : 브랜치를 생성하자마자 해당 브랜치로 이동한다
+11. git merge '병합시킬파일이름' : 브랜치(프로젝트) 내용을 불러와 병합 e.g. git merge add-style
