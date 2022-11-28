@@ -8,3 +8,5 @@
 6. git branch 이름 : 브랜치 새로 생성 e.g. git branch add-style / 기능을 새로 추가하거나 하면 master브랜치말고 새로 브랜치를 생성해서 테스트해보는게 좋음
 7. git branch : 프로젝트에서 관리되고있는 브랜치 목록들 출력 / 현재 선택되어있는 브랜치는 앞에 *가 붙어있음
 8. git checkout 이름 : (이름) 브랜치로 관리 선택이동 e.g.git checkout add-style
+9. git branch -d 이름 : '이름'의 브랜치를 삭제
+10. git checkout -b 이름 : 브랜치를 생성하자마자 해당 브랜치로 이동한다
