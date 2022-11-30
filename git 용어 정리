@@ -23,4 +23,7 @@ e.g. git remote add origin https://github.com/minleeHa/test-repo.git
 17. git 별칭이름 현재해당되는branch이름(master나abc같은) : 프로젝트를 깃허브에 업로드
 e.g. git push origin master
 
+18. git push 별칭이름 --all : 로컬프로젝트에 있는 모든 브랜치들이 업로드됨
+e.g. git push origin --all
+
 */
