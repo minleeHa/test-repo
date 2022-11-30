@@ -11,3 +11,7 @@
 9. git branch -d 이름 : '이름'의 브랜치를 삭제
 10. git checkout -b 이름 : 브랜치를 생성하자마자 해당 브랜치로 이동한다
 11. git merge '병합시킬파일이름' : 브랜치(프로젝트) 내용을 불러와 병합 e.g. git merge add-style
+12. git reset --hard HEAD~ : 이전 버전으로 되돌릴 수 있다 (git log를 치면 나오는 목록에서 전 commit버전으로 되돌아감, 현재 있던 버전은 삭제됨)
+13. git reset --hard HEAD~숫자 : 내가 원하는 버전으로 돌아갈수있음
+14. git reset --hard 해당commit아이디 : 내가 지정한 commit아이디 버전으로 돌아갈수있음
+15. git reset --hard ORIG_HEAD : reset을 통해 되돌렸을때 지워졌던 해당 버전을 다시 복구시킨다
