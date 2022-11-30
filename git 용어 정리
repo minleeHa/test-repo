@@ -1,4 +1,12 @@
 /*
+
+### 사용자 등록 ####
+git config --global --list : github과 연결되어있는 정보가 있는지 확인
+git config --global user.name 'github의 유저이름' : 사용자 정보 등록
+git config --global user.email 'github계정의 이메일' : 사용자 정보 등록
+git config --global core.autocrlf : 개행문자(줄바꿈문자)를 어떻게 처리할지 보여줌 / 윈도우: git config --global core.autocrlf true 쓸것
+
+===========================================================================================================================================
 1. git init : 프로젝트 버전관리 시작하겠다는 초기화를 함 (맨아래 파란색 상태바에 master*라는 표시가 뜸) / 터미널에서 작성
 2. git status : git의 현재 상태 확인, 추적되지않는 파일들은 빨간색으로 표시 / commits : 작업내역(버전)
 3. git add . : 전체파일과 폴더들을 git으로 추적장치를 달아준다/ 이후 status로 다시 확인하면 파일들이 추적되는 형태로 바뀌었다는것->초록색으로 바뀜
