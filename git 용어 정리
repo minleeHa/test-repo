@@ -15,3 +15,9 @@
 13. git reset --hard HEAD~숫자 : 내가 원하는 버전으로 돌아갈수있음
 14. git reset --hard 해당commit아이디 : 내가 지정한 commit아이디 버전으로 돌아갈수있음
 15. git reset --hard ORIG_HEAD : reset을 통해 되돌렸을때 지워졌던 해당 버전을 다시 복구시킨다
+
+16. git remote add 별칭이름(통상적으로 origin이라는 이름사용) 깃허브에서복사한저장할공간주소https : 깃허브(원격저장소)와 연결
+e.g. git remote add origin https://github.com/minleeHa/test-repo.git
+
+17. git 별칭이름 현재해당되는branch이름(master나abc같은) : 프로젝트를 깃허브에 업로드
+e.g. git push origin master
